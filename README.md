@@ -60,3 +60,18 @@ Below are the evaluation metrics selected to be used in this A/B Testing experim
 Below are the evaluation metrics **not** selected to be used in this A/B Testing experiment, followed by a justification for the classification of these metrics:
 
  * Number of user-ids: That is, number of users who enroll in the free trial. (dmin=50). **TODO**
+ 
+ ## References
+ * https://www.google.com/url?q=https://drive.google.com/a/knowlabs.com/file/d/0ByAfiG8HpNUMakVrS0s4cGN2TjQ/view?usp%3Dsharing&sa=D&ust=1494727763866000&usg=AFQjCNF0XidTZERHJ8jlLjCihT0komU2dw
+
+ * https://docs.google.com/document/u/1/d/1aCquhIqsUApgsxQ8-SQBAigFDcfWVVohLEXcV6jWbdI/pub?embedded=True
+
+ * https://docs.google.com/document/d/16OX2KDSHI9mSCriyGIATpRGscIW2JmByMd0ITqKYvNg/edit
+
+ * https://review.udacity.com/#!/projects/4110338963/rubric
+
+ * https://drive.google.com/file/d/0ByAfiG8HpNUMakVrS0s4cGN2TjQ/view
+
+ * https://docs.google.com/spreadsheets/d/1MYNUtC47Pg8hdoCjOXaHqF-thheGpUshrFA21BAJnNc/edit#gid=0
+
+ * https://docs.google.com/spreadsheets/d/1Mu5u9GrybDdska-ljPXyBjTpdZIUev_6i7t4LRDfXM8/edit#gid=0
