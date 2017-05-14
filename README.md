@@ -33,3 +33,30 @@ Any place "unique cookies" are mentioned, the uniqueness is determined by day. (
  * Retention: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by number of user-ids to complete checkout. (dmin=0.01)
 
  * Net conversion: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by the number of unique cookies to click the "Start free trial" button. (dmin= 0.0075)
+
+### Metric Choice
+
+#### Invariant Metrics
+
+Below are the invariant metrics selected to be used in this A/B Testing experiment, followed by a justification for the classification of these metrics:
+
+ * Number of cookies: That is, number of unique cookies to view the course overview page. (dmin=3000). **TODO**
+
+ * Number of clicks: That is, number of unique cookies to click the "Start free trial" button (which happens before the free trial screener is trigger). (dmin=240). **TODO**
+
+ * Click-through-probability: That is, number of unique cookies to click the "Start free trial" button divided by number of unique cookies to view the course overview page. (dmin=0.01). **TODO**
+
+#### Evaluation Metrics
+
+Below are the evaluation metrics selected to be used in this A/B Testing experiment, followed by a justification for the classification of these metrics:
+
+ * Gross conversion: That is, number of user-ids to complete checkout and enroll in the free trial divided by number of unique cookies to click the "Start free trial" button. (dmin= 0.01). **TODO**
+
+ * Retention: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by number of user-ids to complete checkout. (dmin=0.01). **TODO**
+
+ * Net conversion: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by the number of unique cookies to click the "Start free trial" button. (dmin= 0.0075). **TODO**
+
+#### Unused Metrics
+Below are the evaluation metrics **not** selected to be used in this A/B Testing experiment, followed by a justification for the classification of these metrics:
+
+ * Number of user-ids: That is, number of users who enroll in the free trial. (dmin=50). **TODO**
