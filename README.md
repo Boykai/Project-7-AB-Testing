@@ -40,17 +40,11 @@ Any place "unique cookies" are mentioned, the uniqueness is determined by day. (
 
 Below are the invariant metrics selected to be used in this A/B Testing experiment, followed by a justification for the classification of these metrics:
 
- * Number of cookies: That is, number of unique cookies to view the course overview page. (dmin=3000). 
-  * This metric was labeled as an invariant metric because, cookies are gathered regardless if the user chooses to click "Start free trail" or "Access course materials".
-  * The number of cookies is utilized as a unit of diversion. The number of cookies should remain significantly unchanged from the control group to the experiment group. 
+ * Number of cookies: That is, number of unique cookies to view the course overview page. (dmin=3000). This metric was labeled as an invariant metric because, cookies are gathered regardless if the user chooses to click "Start free trail" or "Access course materials". The number of cookies is utilized as a unit of diversion. The number of cookies should remain significantly unchanged from the control group to the experiment group. 
 
- * Number of clicks: That is, number of unique cookies to click the "Start free trial" button (which happens before the free trial screener is trigger). (dmin=240). 
-  * This metric was labeled as an invariant metric because, number of clicks are gathered when the user decides to click "Start free trail", which is before the experiment is tested on the user.
-  * The number of clicks (clicks of the "Start free trail" button), should remain significantly unchanged from the control group to the experiment group.
+ * Number of clicks: That is, number of unique cookies to click the "Start free trial" button (which happens before the free trial screener is trigger). (dmin=240). This metric was labeled as an invariant metric because, number of clicks are gathered when the user decides to click "Start free trail", which is before the experiment is tested on the user. The number of clicks (clicks of the "Start free trail" button), should remain significantly unchanged from the control group to the experiment group.
   
- * Click-through-probability: That is, number of unique cookies to click the "Start free trial" button divided by number of unique cookies to view the course overview page. (dmin=0.01). 
-  * This metric was labeled as an invariant metric because, Click-through-probability are gathered when the user clicks "Start free trial", which is before the experiment is tested on the user.
-  * The Click-through-probability, should remain significantly unchanged from the control group to the experiment group.
+ * Click-through-probability: That is, number of unique cookies to click the "Start free trial" button divided by number of unique cookies to view the course overview page. (dmin=0.01). This metric was labeled as an invariant metric because, Click-through-probability are gathered when the user clicks "Start free trial", which is before the experiment is tested on the user. The Click-through-probability, should remain significantly unchanged from the control group to the experiment group.
 
 #### Evaluation Metrics
 
