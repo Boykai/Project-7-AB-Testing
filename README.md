@@ -52,15 +52,15 @@ Below are the evaluation metrics selected to be used in this A/B Testing experim
 
  * Gross conversion: That is, number of user-ids to complete checkout and enroll in the free trial divided by number of unique cookies to click the "Start free trial" button. (dmin= 0.01). This metric was labeled as evaluation metric because, Gross conversion measures the effect of the experiment on the non-student user to student user measurement. This metric should decrease in the experiment, relative to the control group.
 
- * Retention: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by number of user-ids to complete checkout. (dmin=0.01). This metric was labeled as evaluation metric because, Retention measures the probability of users who remain past 14 days and pay for enrollment. Unfortunately, if Retention is used as an evaluation metric, 4,740,020 samples must be gathered before conclusions can be drawn. For a rate of traffic of 40,000 samples per day, this will take 119 days before this metric produces results, which is too long for this A/B Test. 
-
  * Net conversion: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by the number of unique cookies to click the "Start free trial" button. (dmin= 0.0075). This metric was labeled as evaluation metric because, this measures the number of students to remain in the course long enough to make a payment. This metric should remain unchanged in the experiment, relative to the control group.
 
 #### Unused Metrics
 Below are the evaluation metrics **not** selected to be used in this A/B Testing experiment, followed by a justification for the classification of these metrics:
 
  * Number of user-ids: That is, number of users who enroll in the free trial. (dmin=50). This metric was not used because, the Gross Conversion and Net Conversion rates reflect the number of user-ids in a much more useful manner than just the raw Number of User-Ids count.
- 
+
+ * Retention: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by number of user-ids to complete checkout. (dmin=0.01). This metric was not used because, Retention measures the probability of users who remain past 14 days and pay for enrollment. Unfortunately, if Retention is used as an evaluation metric, 4,740,020 samples must be gathered before conclusions can be drawn. For a rate of traffic of 40,000 samples per day, this will take 119 days before this metric produces results, which is too long for this A/B Test.
+
 ### Measuring Standard Deviation
 
 #### Baseline Values
@@ -86,7 +86,7 @@ Below is a table of the analytical estimated standard deviations of the evaluati
 |Gross Conversion|0.0202|
 |Net Conversion|0.0156|
 
-The Gross Conversion and Net Conversion metrics are calculated with a sample size of 5000 cookies visiting the course overview page, making n = 400 for each analytical estimate. The Number of Cookies is a unit of diversion, which ensures that these calculated analytical SD estimates, are near the empirical values of SD. The Retention metric is calculated by using User-Id as ratio and will need to be calculated empirically. These measurements assume a binomial distribution for the [baseline values](https://docs.google.com/spreadsheets/d/1MYNUtC47Pg8hdoCjOXaHqF-thheGpUshrFA21BAJnNc/edit#gid=0).
+The Gross Conversion and Net Conversion metrics are calculated with a sample size of 5000 cookies visiting the course overview page, making n = 400 for each analytical estimate. The Number of Cookies is a unit of diversion, which ensures that these calculated analytical SD estimates, are near the empirical values of SD. These measurements assume a binomial distribution for the [baseline values](https://docs.google.com/spreadsheets/d/1MYNUtC47Pg8hdoCjOXaHqF-thheGpUshrFA21BAJnNc/edit#gid=0).
 
  ## References
 
