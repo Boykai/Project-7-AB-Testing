@@ -77,6 +77,17 @@ Below is the table of [baseline values](https://docs.google.com/spreadsheets/d/1
 |Probability of payment, given enroll|0.53|
 |Probability of payment, given click|0.1093125|
 
+#### Evaluation Metric Standard Deviations
+
+Below is a table of the analytical estimated standard deviations of the evaluation metrics used, given a sample size of 5000 cookies visiting the course overview page.
+
+|Evaluation Metric| SD|
+| --------------- |:-:|
+|Gross Conversion|0.0202|
+|Net Conversion|0.0156|
+
+The Gross Conversion and Net Conversion metrics are calculated with a sample size of 5000 cookies visiting the course overview page, making n = 400 for each analytical estimate. The Number of Cookies is a unit of diversion, which ensures that these calculated analytical SD estimates, are near the empirical values of SD. The Retention metric is calculated by using User-Id as ratio and will need to be calculated empirically.
+
  ## References
  * https://www.google.com/url?q=https://drive.google.com/a/knowlabs.com/file/d/0ByAfiG8HpNUMakVrS0s4cGN2TjQ/view?usp%3Dsharing&sa=D&ust=1494727763866000&usg=AFQjCNF0XidTZERHJ8jlLjCihT0komU2dw
 
