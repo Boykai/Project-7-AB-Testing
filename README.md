@@ -61,6 +61,22 @@ Below are the evaluation metrics **not** selected to be used in this A/B Testing
 
  * Number of user-ids: That is, number of users who enroll in the free trial. (dmin=50). This metric was not used because, the Gross Conversion and Net Conversion rates reflect the number of user-ids in a much more useful manner than just the raw Number of User-Ids count.
  
+### Measuring Standard Deviation
+
+#### Baseline Values
+
+Below is the table of [baseline values](https://docs.google.com/spreadsheets/d/1MYNUtC47Pg8hdoCjOXaHqF-thheGpUshrFA21BAJnNc/edit#gid=0) for the Udacity A/B Testing Experiment.
+
+|Baseline Metric| Metric Value|
+| ------------- |:-----------:|
+|Unique cookies to view page per day|40000|
+|Unique cookies to click "Start free trial" per day|3200|
+|Enrollments per day|660|
+|Click-through-probability on "Start free trail"|0.08|
+|Probability of enrolling, given click|0.20625|
+|Probability of payment, given enroll|0.53|
+|Probability of payment, given click|0.1093125|
+
  ## References
  * https://www.google.com/url?q=https://drive.google.com/a/knowlabs.com/file/d/0ByAfiG8HpNUMakVrS0s4cGN2TjQ/view?usp%3Dsharing&sa=D&ust=1494727763866000&usg=AFQjCNF0XidTZERHJ8jlLjCihT0komU2dw
 
