@@ -50,16 +50,16 @@ Below are the invariant metrics selected to be used in this A/B Testing experime
 
 Below are the evaluation metrics selected to be used in this A/B Testing experiment, followed by a justification for the classification of these metrics:
 
- * Gross conversion: That is, number of user-ids to complete checkout and enroll in the free trial divided by number of unique cookies to click the "Start free trial" button. (dmin= 0.01). **TODO**
+ * Gross conversion: That is, number of user-ids to complete checkout and enroll in the free trial divided by number of unique cookies to click the "Start free trial" button. (dmin= 0.01). This metric was labeled as evaluation metric because, Gross conversion measures the effect of the experiment on the non-student user to student user measurement. This metric should decrease in the experiment, relative to the control group.
 
- * Retention: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by number of user-ids to complete checkout. (dmin=0.01). **TODO**
+ * Retention: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by number of user-ids to complete checkout. (dmin=0.01). This metric was labeled as evaluation metric because, Retention measures the probability of users who remain past 14 days and pay for enrollment. Unfortunately, if Retention is used as an evaluation metric, 4,740,020 samples must be gathered before conclusions can be drawn. For a rate of traffic of 40,000 samples per day, this will take 119 days before this metric produces results, which is too long for this A/B Test. 
 
- * Net conversion: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by the number of unique cookies to click the "Start free trial" button. (dmin= 0.0075). **TODO**
+ * Net conversion: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by the number of unique cookies to click the "Start free trial" button. (dmin= 0.0075). This metric was labeled as evaluation metric because, this measures the number of students to remain in the course long enough to make a payment. This metric should remain unchanged in the experiment, relative to the control group.
 
 #### Unused Metrics
 Below are the evaluation metrics **not** selected to be used in this A/B Testing experiment, followed by a justification for the classification of these metrics:
 
- * Number of user-ids: That is, number of users who enroll in the free trial. (dmin=50). **TODO**
+ * Number of user-ids: That is, number of users who enroll in the free trial. (dmin=50). This metric was not used because, the Gross Conversion and Net Conversion rates reflect the number of user-ids in a much more useful manner than just the raw Number of User-Ids count.
  
  ## References
  * https://www.google.com/url?q=https://drive.google.com/a/knowlabs.com/file/d/0ByAfiG8HpNUMakVrS0s4cGN2TjQ/view?usp%3Dsharing&sa=D&ust=1494727763866000&usg=AFQjCNF0XidTZERHJ8jlLjCihT0komU2dw
