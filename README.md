@@ -88,7 +88,29 @@ Below is a table of the analytical estimated standard deviations of the evaluati
 
 The Gross Conversion and Net Conversion metrics are calculated with a sample size of 5000 cookies visiting the course overview page, making n = 400 for each analytical estimate. The Number of Cookies is a unit of diversion, which ensures that these calculated analytical SD estimates, are near the empirical values of SD. These measurements assume a binomial distribution for the [baseline values](https://docs.google.com/spreadsheets/d/1MYNUtC47Pg8hdoCjOXaHqF-thheGpUshrFA21BAJnNc/edit#gid=0).
 
- ## References
+### Sizing
+
+#### Number of Samples vs. Power
+
+#### Duration vs. Exposure
+
+## Experiment Analysis
+
+### Sanity Checks
+
+### Result Analysis
+
+#### Effect Size Tests
+
+#### Sign Tests
+
+#### Summary
+
+### Recommentation
+
+## Follow-Up-Experiment
+
+## References
 
  * https://docs.google.com/document/u/1/d/1aCquhIqsUApgsxQ8-SQBAigFDcfWVVohLEXcV6jWbdI/pub?embedded=True
 
