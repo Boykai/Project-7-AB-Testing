@@ -86,7 +86,7 @@ Below is a table of the analytical estimated standard deviations of the evaluati
 |Gross Conversion|0.0202|
 |Net Conversion|0.0156|
 
-The Gross Conversion and Net Conversion metrics are calculated with a sample size of 5000 cookies visiting the course overview page, making n = 400 for each analytical estimate. The Number of Cookies is a unit of diversion, which ensures that these calculated analytical SD estimates, are near the empirical values of SD. The Retention metric is calculated by using User-Id as ratio and will need to be calculated empirically.
+The Gross Conversion and Net Conversion metrics are calculated with a sample size of 5000 cookies visiting the course overview page, making n = 400 for each analytical estimate. The Number of Cookies is a unit of diversion, which ensures that these calculated analytical SD estimates, are near the empirical values of SD. The Retention metric is calculated by using User-Id as ratio and will need to be calculated empirically. These measurements assume a binomial distribution for the [baseline values](https://docs.google.com/spreadsheets/d/1MYNUtC47Pg8hdoCjOXaHqF-thheGpUshrFA21BAJnNc/edit#gid=0).
 
  ## References
 
