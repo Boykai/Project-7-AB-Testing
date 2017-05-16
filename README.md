@@ -148,6 +148,13 @@ The Net Conversion does not change due to the effects of the experiment on the u
 
 #### Sign Tests
 
+A sign test, not using the Bonferroni Correction, for each of the evaluation metrics used in the day-by-data data will be calculated using this (free online tool)[http://graphpad.com/quickcalcs/binomial1/].
+
+|Evaluation Metric| p-value| Statistical Significance|
+| --------------- |:-:|:-:|
+|Gross Conversion|0.0026|Yes|
+|Net Conversion|0.6776|No|
+
 #### Summary
 
 ### Recommentation
@@ -169,3 +176,5 @@ The Net Conversion does not change due to the effects of the experiment on the u
  * https://docs.google.com/spreadsheets/d/1Mu5u9GrybDdska-ljPXyBjTpdZIUev_6i7t4LRDfXM8/edit#gid=0
  
  * http://www.evanmiller.org/ab-testing/sample-size.html
+ 
+ * http://graphpad.com/quickcalcs/binomial1/
