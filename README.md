@@ -92,6 +92,21 @@ The Gross Conversion and Net Conversion metrics are calculated with a sample siz
 
 #### Number of Samples vs. Power
 
+After careful consideration, the Bonferroni Correction will not be used in the analysis calculations, due to the Gross and Net Conversion metrics being correlated.
+
+ * α = 0.05
+ * ß = 0.2
+
+The sample sizes needed for each evaluation metrics was calculated using this [free online tool](http://www.evanmiller.org/ab-testing/sample-size.html).
+
+ * Gross Conversion - Sample Size....25,835
+ * Net Conversion - Sample Size......27,413
+
+Given that these two metrics are correlated and the Click-Through-Probability for the baseline values equals 0.8:
+
+ * Pageviews (per group) = 27413 / 0.08         => 342,662.5
+ * Total Pageviews (both groups) = 342662.5 * 2 => 685,325
+
 #### Duration vs. Exposure
 
 ## Experiment Analysis
@@ -123,3 +138,5 @@ The Gross Conversion and Net Conversion metrics are calculated with a sample siz
  * https://docs.google.com/spreadsheets/d/1MYNUtC47Pg8hdoCjOXaHqF-thheGpUshrFA21BAJnNc/edit#gid=0
 
  * https://docs.google.com/spreadsheets/d/1Mu5u9GrybDdska-ljPXyBjTpdZIUev_6i7t4LRDfXM8/edit#gid=0
+ 
+ * http://www.evanmiller.org/ab-testing/sample-size.html
