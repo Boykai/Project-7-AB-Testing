@@ -100,7 +100,7 @@ After careful consideration, the Bonferroni Correction will not be used in the a
 The sample sizes needed for each evaluation metrics was calculated using this [free online tool](http://www.evanmiller.org/ab-testing/sample-size.html).
 
  * Gross Conversion - Sample Size....25,835
- * Net Conversion - Sample Size......27,413
+ * Net Conversion - Sample Size.......27,413
 
 Given that these two metrics are correlated and the Click-Through-Probability for the baseline values equals 0.8:
 
@@ -108,6 +108,14 @@ Given that these two metrics are correlated and the Click-Through-Probability fo
  * Total Pageviews (both groups) = 342662.5 * 2 => 685,325
 
 #### Duration vs. Exposure
+
+The duration of the experiment by design must be at least 14 days long to collect the Net Conversion metric being measured in this experiment. Given that 40,000 pageviews occur on average everyday, and 685,325 pageviews are needed to conduct the experiment. An experiment length of 29 days was chosen, which will require 60% of total daily traffic to be exposed to the experiment. This is also a suitable duration for the experiment given that it is almost equal to 1 full month and can help temporal abnormalities.
+
+ * Experiment Length.........29 days
+ 
+ * Percent of Traffic Used...60%
+
+The risk associated with this experiment is extremely low given that the data sensitivity for the metrics gathered is relatively low, the user experience is the same for existing users, and the experiment is setup in such a way to only effect new users in a positive or constructive way.
 
 ## Experiment Analysis
 
