@@ -171,6 +171,25 @@ While the number of users to remain enrolled past the 14-day mark, making their 
 
 ## Follow-Up-Experiment
 
+### Outline
+
+One idea for a follow-up-experiment would be to expose non-students to an in-depth outline of the course material for each Nanodegree. Currently, board information is given to the user before registration which leaves a lot to the imagination of the user to make the decision of whether or not to pursue a paid Nanodegree.
+
+An outline of each course, project, and most importantly skills that will be acquired by pursing a Nanodegree. Skills like, Python, R, SQL, MongoDB, D3.js, etc. This would allow the user to obtain a very detailed insight into what program they are signing up for and if they felt that they had the necessary skill set, interest, and time to invest into the Nanodegree.
+
+### Hypothesis
+
+If the user is exposed to an extremely detailed outline of the Nanodegree, the user Net Conversion will increase.
+
+### Metrics
+
+* Number of cookies: That is, number of unique cookies to view the course overview page. Cookies are gathered regardless if the user chooses to click "Start free trail" or "Access course materials". The number of cookies is utilized as a unit of diversion. The number of cookies should remain significantly unchanged from the control group to the experiment group. 
+
+ * Gross conversion: That is, number of user-ids to complete checkout and enroll in the free trial divided by number of unique cookies to click the "Start free trial" button. Gross conversion measures the effect of the experiment on the non-student user to student user measurement. This metric should decrease in the experiment, relative to the control group.
+
+ * Net conversion: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by the number of unique cookies to click the "Start free trial" button. This measures the number of students to remain in the course long enough to make a payment. This metric should increase in the experiment, relative to the control group.
+
+
 ## References
 
  * https://docs.google.com/document/u/1/d/1aCquhIqsUApgsxQ8-SQBAigFDcfWVVohLEXcV6jWbdI/pub?embedded=True
