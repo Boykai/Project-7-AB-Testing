@@ -135,6 +135,17 @@ The actually observed value will be listed for comparison and to conduct a Sanit
 
 #### Effect Size Tests
 
+For each of the evaluation metrics, the confidence interval around the difference will be calculated without using the Bonferroni Correction. The values from these calculations will be used to determine the statistical and practical significance of each evaluation metric.
+
+|Evaluation Metric| Lower Bound| Upper Bound| Statistical Significance| Practical Significance|
+| --------------- |:-:|:-:|:-:|:-:|
+|Gross Conversion|-0.0291|-0.0120|Yes|Yes|
+|Net Conversion|-0.0116|0.0019|No|No|
+
+The Gross Conversion changes due to the effects of the experiment on the user group. This metric changing in a statistically significant way demonstrates that the Udacity Experiment did have an impact on the users.
+
+The Net Conversion does not change due to the effects of the experiment on the user group in a statistically or practically significant way. 
+
 #### Sign Tests
 
 #### Summary
