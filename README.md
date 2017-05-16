@@ -159,11 +159,15 @@ A sign test, not using the Bonferroni Correction, for each of the evaluation met
 
 The results of the Udacity Experiment based on the selected Evaluation Metrics, showed that the Gross Conversion changed and the change was statistically significant. The Gross Conversion rate decreased within the experiment group but, the Net Conversion remained unchanged. While the Net Conversion did not change in a statistically or practically significant way, due to the confidence interval having values that were above and below zero, which is not statistically significant.
 
-The Bonferroni Correction was not used in the analysis of this experiment due to both evaluation metrics being required to show a statistically significant change, not just one of the metrics. Utilizing the Bonferroni Correction would decrease the likelyhood of a Type-2 error but, due to the how the Udacity Experiment was setup the Bonferroni Correction was not utilized in this analysis.
+The Bonferroni Correction was not used in the analysis of this experiment due to both evaluation metrics being required to show a statistically significant change, not just one of the metrics. Utilizing the Bonferroni Correction would decrease the likelyhood of a Type-2 Error but, due to the how the Udacity Experiment was setup the Bonferroni Correction was not utilized in this analysis.
+
+### Recommentation
 
 Based on the statistical results of the Udacity Experiment, the change to the website is not recommended due to the Gross Conversion decreasing but, the Net Conversion remaining the same.
 
-### Recommentation
+The changes implemented in the experiment group, led to fewer users signing up for the free-trail (Gross Conversion). This was most likely due to the user being more cautious about pursuing a Udacity course given the information that they might not have, on average, enough time to dedicate to the course.
+
+While the number of users to remain enrolled past the 14-day mark, making their first tuition payment, remained unchanged in the experiment group. This most likely demonstrates that the caliber of users enrolling in the course did not change. Therefore, the desired effect of the Udacity Experiment was not achieved.
 
 ## Follow-Up-Experiment
 
