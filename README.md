@@ -52,7 +52,7 @@ Below are the evaluation metrics selected to be used in this A/B Testing experim
 
  * Gross conversion: That is, number of user-ids to complete checkout and enroll in the free trial divided by number of unique cookies to click the "Start free trial" button. (dmin= 0.01). This metric was labeled as evaluation metric because, Gross conversion measures the effect of the experiment on the non-student user to student user measurement. This metric should decrease in the experiment, relative to the control group.
 
- * Net conversion: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by the number of unique cookies to click the "Start free trial" button. (dmin= 0.0075). This metric was labeled as evaluation metric because, this measures the number of students to remain in the course long enough to make a payment. This metric should remain unchanged in the experiment, relative to the control group.
+ * Net conversion: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by the number of unique cookies to click the "Start free trial" button. (dmin= 0.0075). This metric was labeled as evaluation metric because, this measures the number of students to remain in the course long enough to make a payment. This metric should not decrease in the experiment, relative to the control group.
 
 #### Unused Metrics
 Below are the evaluation metrics **not** selected to be used in this A/B Testing experiment, followed by a justification for the classification of these metrics:
@@ -123,7 +123,7 @@ The risk associated with this experiment is extremely low given that the data se
 
 For each metric that was labeled as an invariant metric, the 95% confidence interval for the value expected to be observed will be calculated. 
 
-The actually observed value will be listed for comparison and to conduct a Sanity Check of the invariant metrics.
+The observed value will be listed for comparison and to conduct a Sanity Check of the invariant metrics.
 
 |Invariant Metric| Lower Bound| Upper Bound| Observed| Sanity Check|
 | --------------- |:-:|:-:|:-:|:-:|
@@ -142,9 +142,9 @@ For each of the evaluation metrics, the confidence interval around the differenc
 |Gross Conversion|-0.0291|-0.0120|Yes|Yes|
 |Net Conversion|-0.0116|0.0019|No|No|
 
-The Gross Conversion changes due to the effects of the experiment on the user group. This metric changing in a statistically significant way demonstrates that the Udacity Experiment did have an impact on the users.
+The Gross Conversion changes because of the experiment on the user group. This metric changing in a statistically significant way demonstrates that the Udacity Experiment did have an impact on the users.
 
-The Net Conversion does not change due to the effects of the experiment on the user group in a statistically or practically significant way. 
+The Net Conversion does not change because of the experiment on the user group in a statistically or practically significant way. 
 
 #### Sign Tests
 
@@ -157,23 +157,23 @@ A sign test, not using the Bonferroni Correction, for each of the evaluation met
 
 #### Summary
 
-The results of the Udacity Experiment based on the selected Evaluation Metrics, showed that the Gross Conversion changed and the change was statistically significant. The Gross Conversion rate decreased within the experiment group but, the Net Conversion remained unchanged. While the Net Conversion did not change in a statistically or practically significant way, due to the confidence interval having values that were above and below zero, which is not statistically significant.
+The results of the Udacity Experiment based on the selected Evaluation Metrics, showed that the Gross Conversion changed and the change was statistically significant. The Gross Conversion rate decreased within the experiment group but, the Net Conversion remained unchanged. While the Net Conversion did not change in a statistically or practically significant way, due to the confidence interval having values that were above and below zero, which is not statistically significant. 
 
-The Bonferroni Correction was not used in the analysis of this experiment due to both evaluation metrics being required to show a statistically significant change, not just one of the metrics. Utilizing the Bonferroni Correction would decrease the likelyhood of a Type-2 Error but, due to the how the Udacity Experiment was setup the Bonferroni Correction was not utilized in this analysis.
+The Bonferroni Correction was not used in the analysis of this experiment due to both evaluation metrics being required to pass in order to launch the Udacity changes. Utilizing the Bonferroni Correction would decrease the likelyhood of a Type-1 Error but, due to the how the Udacity Experiment was setup, a Type-2 Error was the focus, the Bonferroni Correction was not utilized in this analysis.
 
-### Recommentation
+### Recommendation
 
-Based on the statistical results of the Udacity Experiment, the change to the website is not recommended due to the Gross Conversion decreasing but, the Net Conversion remaining the same.
+Based on the statistical results of the Udacity Experiment, the change to the website is not recommended due to the Gross Conversion decreasing and the possibility of the Net Conversion decreasing as well.
 
 The changes implemented in the experiment group, led to fewer users signing up for the free-trail (Gross Conversion). This was most likely due to the user being more cautious about pursuing a Udacity course given the information that they might not have, on average, enough time to dedicate to the course.
 
-While the number of users to remain enrolled past the 14-day mark, making their first tuition payment, remained unchanged in the experiment group. This most likely demonstrates that the caliber of users enrolling in the course did not change. Therefore, the desired effect of the Udacity Experiment was not achieved.
+Due to the possibility of the Net Conversion decreasing during the Udacity Experiment, applying the change to the website is not recommended.
 
 ## Follow-Up-Experiment
 
 ### Outline
 
-One idea for a follow-up-experiment would be to expose non-students to an in-depth outline of the course material for each Nanodegree. Currently, board information is given to the user before registration which leaves a lot to the imagination of the user to make the decision of whether or not to pursue a paid Nanodegree.
+One idea for a follow-up-experiment would be to expose non-students to an in-depth outline of the course material for each Nanodegree. Currently, board information is given to the user before registration which leaves a lot to the imagination of the user to make the decision of whether to pursue a paid Nanodegree.
 
 An outline of each course, project, and most importantly skills that will be acquired by pursing a Nanodegree. Skills like, Python, R, SQL, MongoDB, D3.js, etc. This would allow the user to obtain a very detailed insight into what program they are signing up for and if they felt that they had the necessary skill set, interest, and time to invest into the Nanodegree.
 
